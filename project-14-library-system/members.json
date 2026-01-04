@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Alice Johnson",
+        "member_id": 1
+    },
+    {
+        "name": "Bob Smith",
+        "member_id": 2
+    },
+    {
+        "name": "Cathy Brown",
+        "member_id": 3
+    },
+    {
+        "name": "David Wilson",
+        "member_id": 4
+    },
+    {
+        "name": "Eva Green",
+        "member_id": 5
+    },
+    {
+        "name": "Frank Mills",
+        "member_id": 6
+    },
+    {
+        "name": "Gina Hall",
+        "member_id": 7
+    },
+    {
+        "name": "Harry Potter",
+        "member_id": 8
+    }
+]

@@ -1,0 +1,76 @@
+{
+  "name": "Software Engineering Projects",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "find . -name 'requirements.txt' -exec pip install -r {} \\;",
+  "postCreateCommand": "",
+  "postAttachCommand": {},
+  "portsAttributes": {
+    "5000": {
+      "label": "Flask Application",
+      "onAutoForward": "openPreview"
+    },
+    "3000": {
+      "label": "Dev Server",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.autoSave": "onFocusChange",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.fontSize": 18,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[python]": {
+          "editor.defaultFormatter": "charliermarsh.ruff",
+          "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+          }
+        },
+        "[html]": {
+          "editor.defaultFormatter": "vscode.html-language-features"
+        },
+        "[css]": {
+          "editor.defaultFormatter": "vscode.css-language-features"
+        },
+        "[javascript]": {
+          "editor.defaultFormatter": "vscode.typescript-language-features"
+        },
+        "[json]": {
+          "editor.defaultFormatter": "vscode.json-language-features"
+        },
+        "python.languageServer": "Pylance",
+        "python.analysis.typeCheckingMode": "basic",
+        "python.analysis.autoImportCompletions": true,
+        "window.restoreWindows": "preserve",
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        }
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "charliermarsh.ruff",
+        "KevinRose.vsc-python-indent",
+        "usernamehw.errorlens",
+        "streetsidesoftware.code-spell-checker",
+        "esbenp.prettier-vscode",
+        "oderwat.indent-rainbow",
+        "ritwickdey.LiveServer",
+        "ecmel.vscode-html-css",
+        "yy0931.vscode-sqlite3-editor",
+        "GitHub.codespaces",
+        "bierner.markdown-preview-github-styles",
+        "mechatroner.rainbow-csv"
+      ]
+    }
+  },
+  "forwardPorts": [5000, 3000]
+}
