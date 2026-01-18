@@ -4,32 +4,22 @@
 - File Name: lab3.py
 - Teacher: David Steedman
 - Class: Software Engineering
-- Description: Learn how to identify and fix thr three types of errors
+- Description: Learn how to handle errors using try/except
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-# The program below should analyse a list of grades and print out some information.
-# However, it does not yet work. There are seven errors in total to find and fix.
+# Create a list with 3 items (e.g., fruits or colours)
 
-print(Starting grade analysis)
 
-grades = [80, 95, 78, 92, 85, 90]
+# Ask the user for an index number
 
-def calculate_average(grades)
-    total = sum(grades)
-    average = total - len(grades)
-    return average
 
-if calculate_average > 50:
-    print("Average grade is failing.")
-else:
-    print("Average grade is passing.")
+# Use try/except to catch ValueError if the user enters a non-number
 
-grades.sort()
-print("Highest Grade:", grades[6])
 
-# Runtime Error 2: TypeError in string concatenation
-average_grade = calculate_average(grades)
-print("Average Grade: " + average_grade)
+# Use try/except to catch IndexError if the index is out of range
 
-# Final print statement
-print("Grade analysis complete.")
+
+# If successful, print the item at that index
+
+
+# Ask the user for an item to remove, handling the case where it doesn't exist in the list

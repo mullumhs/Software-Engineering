@@ -16,4 +16,5 @@
 # Write a loop that continuously prompts the user for a password until a predefined password is entered.
 
 
-# Write a loop where the user can enter numbers continuously, and the program prints the running total.
+# Write a loop where the user can enter numbers continuously, adding them to a running total.
+# The loop should stop when the user enters 0, then print the final total.

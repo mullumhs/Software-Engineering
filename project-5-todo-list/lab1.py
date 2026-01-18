@@ -7,19 +7,22 @@
 - Description: Create and use lists in Python
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-# Create a list named favorite_foods and add at least five different food items to it
+# Create a list called 'fruits' containing at least 5 fruit names
 
 
-# Change the third item in the list to a different food
+# Print the first fruit and the last fruit using indexing
 
 
-# Print out only the first and fourth items in the list
+# Print the length of the list using len()
 
 
-# Ask the user for a food item
+# Modify the second fruit to a different fruit name
 
 
-# Append the user's food item to the list
+# Print the entire list to show the modification
 
 
-# Print out the entire list of food items
+# Use a for loop to print each fruit on a separate line
+
+
+# Use enumerate() to print each fruit with its number (1, 2, 3...)

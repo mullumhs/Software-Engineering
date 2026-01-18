@@ -7,23 +7,25 @@
 - Description: Work some of the more advanced features of lists in Python
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-# Here is a list of 10 fruits:
-fruits = ["Grape", "Apple", "Lemon", "Cherry", "Date", "Elderberry", "Fig",  "Honeydew", "Kiwi", "Banana"]
+# Create an empty list called 'shopping'
 
 
-# Remove the third fruit from the list using the pop() method.
+# Use append() to add 3 items to the shopping list
 
 
-# Use the remove() method to remove a fruit of your choice from the list.
+# Use insert() to add an item at the beginning of the list
 
 
-# Search for "Apple" in the list and print a message saying whether or not it was found.
+# Use remove() to remove one item by its value
 
 
-# Sort the List in alphabetical order.
+# Use pop() to remove and print the last item
 
 
-# Create a new list that contains a slice of the first 5 items
+# Sort the remaining list alphabetically using sort()
 
 
-# Print out the new sliced list using a for loop
+# Ask the user for an item, and use the 'in' keyword to check if it's in the list
+
+
+# Print a message telling the user whether the item was found or not

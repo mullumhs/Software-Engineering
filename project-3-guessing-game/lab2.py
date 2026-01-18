@@ -16,4 +16,4 @@
 # Ask the user for an integer 'x', and use a for loop to print all numbers from 1 up to 'x'.
 
 
-# Ask the user for an integer 'y', and print out the multiplication table of 'y' for numbers from 1 to 12.
+# Ask the user for an integer 'y', and print out the multiplication table of 'y' for numbers from 1 to 10.

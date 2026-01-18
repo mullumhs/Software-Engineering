@@ -1,4 +1,4 @@
-# Project 8: Data Structures Toolkit
+# Project 8: Browser History Manager
 
 Teacher: David Steedman
 
@@ -80,4 +80,4 @@ By completing these labs, you will:
 
 ## Course Materials
 
-- [Project 8 - Data Structures](https://sites.google.com/education.nsw.gov.au/mhs-software-engineering/preliminary/programming-fundamentals/project-8-data-structures)
+- [Project 8 - Browser History](https://mhs-software-engineering.vercel.app/preliminary/programming-fundamentals/project-8-browser-history)
